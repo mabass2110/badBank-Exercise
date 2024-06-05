@@ -4,6 +4,8 @@ import './App.css'
 import Home from './home'
 import Products from './products'
 import About from './about'
+import Nav from './navbar'
+import Navigation from './navbar'
 
 const UserContext = createContext(null)
 
@@ -15,9 +17,7 @@ function App() {
 
         <h1>Routing - Hello World</h1>
 
-        <Link to='/'>Home</Link>--
-        <Link to='/about'>About</Link>--
-        <Link to='/products'>Products</Link>--
+        <Navigation/>
 
         <hr/>
 
